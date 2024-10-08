@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    gem 'faraday-retry'
     gem 'jekyll-remote-theme'
     gem 'classifier-reborn'
     gem 'jekyll'
