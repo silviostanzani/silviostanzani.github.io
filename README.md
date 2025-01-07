@@ -1,5 +1,3 @@
-# Silvio Stanzani
-
 ## About Me
 
 Hi, i am a Project Leader at NTT Data Brazil for AI innovation Projects. 
