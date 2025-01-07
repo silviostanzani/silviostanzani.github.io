@@ -1,48 +1,15 @@
-# Welcome to Carlos Cano's Personal Website
-
+# Silvio Stanzani
 
 ## About Me
 
-Hi, I'm Carlos Cano! I'm a passionate developer with a strong background in cloud technologies, frontend development, and more. Welcome to my personal website where you can learn more about my experience, projects, and thoughts on technology.
+Hi, i am a Project Leader at NTT Data Brazil for AI innovation Projects. 
 
-### Skills
-
-- **Languages:** Python, JavaScript, HTML, CSS
-- **Frameworks:** Angular, Node.js
-- **Cloud Services:** AWS
-
-## Experience
-
-I have worked on various projects ranging from web development to cloud architecture. Here are some highlights:
-
-### Cloud Application Architect @ Amazon Web Services
-**Dates Employed: December 2021 - Present**
-
-- Architect and modernizing customer applications to be cloud optimized.
-- Advise and implement Cloud best practices.
-- Implement DevOps practices such as infrastructure as code, continuous integration and automated deployment.
-- Python, NodeJs and Java Development.
-- Serverless Development.
-
-## Projects
-
-### Cloud Resume Challenge
-A brief description of Project Name 1. [GitHub Repo](https://github.com/username/project1)
-
-
-## Blog
-
-I enjoy sharing my knowledge and experiences through blog posts. Check out some of my latest entries:
-
-### [How I Built This Website](myblog1.md)
-A detailed explanation of how I created this personal website using MkDocs and Markdown.
-
-### [Lessons Learned from the Cloud Resume Challenge](myblog2.md)
-Insights and takeaways from completing the Cloud Resume Challenge.
+I work with P&D and Research projects since 2005 mainly in the field of Parallel Programming, Distributed Computing and Artificial Inteligence.
 
 ## Contact
 
-Feel free to reach out to me via [email](your-email@domain.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile).
+Email silvio.stanzani at gmail.com
+Feel free to reach out to me via [email](silvio.stanzani@gmail.com) or connect with me on [LinkedIn](linkedin.com/in/silviostanzani).
 
 ---
 
