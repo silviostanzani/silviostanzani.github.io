@@ -6,5 +6,4 @@ I work with P&D and Research projects since 2005 mainly in the field of Parallel
 
 ## Contact
 
-Email silvio.stanzani at gmail.com
-Feel free to reach out to me via [email](silvio.stanzani@gmail.com) or connect with me on [LinkedIn](linkedin.com/in/silviostanzani).
+Reach out to me via [email](silvio.stanzani@gmail.com) or connect with me on [LinkedIn](linkedin.com/in/silviostanzani).
