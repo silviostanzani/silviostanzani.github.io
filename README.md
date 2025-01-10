@@ -1,6 +1,6 @@
 ## About Me
 
-Hi, i am a Project Leader at NTT Data Brazil for AI innovation Projects. 
+Hi, i am a Project Leader at NTT Data Brazil for Artificial Intelligence Innovation Projects. 
 
 I work with P&D and Research projects since 2005 mainly in the field of Parallel Programming, Distributed Computing and Artificial Inteligence.
 
