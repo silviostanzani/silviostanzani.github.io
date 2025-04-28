@@ -1,0 +1,250 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+/* Header Section */
+.header {
+    background: linear-gradient(135deg, #0077B5, #00A0DC);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.profile-image-container {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.title {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+/* Bio Section */
+.bio {
+    padding: 30px;
+    text-align: center;
+    color: #555;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #eee;
+}
+
+/* Contact Links */
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 30px;
+}
+
+.contact-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.linkedin {
+    background-color: #0077B5;
+    color: white;
+}
+
+.linkedin:hover {
+    background-color: #005b8c;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 119, 181, 0.3);
+}
+
+.email {
+    background-color: #D44638;
+    color: white;
+}
+
+.email:hover {
+    background-color: #b13c31;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(212, 70, 56, 0.3);
+}
+
+.resume {
+    background-color: #333;
+    color: white;
+}
+
+.resume:hover {
+    background-color: #222;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(51, 51, 51, 0.3);
+}
+
+.icon {
+    font-size: 1.3rem;
+}
+
+/* Skills Section */
+.skills {
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill-tag {
+    background-color: #f0f7ff;
+    color: #0077B5;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid #e1efff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 0.9rem;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.profile-card {
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .profile-image-container {
+        width: 120px;
+        height: 120px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .title {
+        font-size: 1rem;
+    }
+    
+    .bio {
+        padding: 20px;
+        font-size: 1rem;
+    }
+    
+    .contact-btn {
+        padding: 12px;
+        font-size: 1rem;
+    }
+}
+
+/* Hover Effects */
+.contact-btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+.contact-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-btn:active {
+    transform: scale(0.97);
+}
