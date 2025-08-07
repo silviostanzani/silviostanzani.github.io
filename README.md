@@ -1,3 +1,4 @@
-# Professional Landing Page
+# Silvio Stanzani Landing Page
 
-[link]([url](https://silviostanzani.github.io)){:target="_blank"}
+
+<a href="http://silviostanzani.github.io/" target="_blank">silviostanzani.github.io</a>
